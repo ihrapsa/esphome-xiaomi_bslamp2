@@ -21,6 +21,7 @@ esp32:
   board: esp32doit-devkit-v1
   framework:
     type: esp-idf
+    platform_version: 3.3.2
     sdkconfig_options:
       CONFIG_FREERTOS_UNICORE: y
     advanced:
@@ -30,7 +31,7 @@ esp32:
 external_components:
   - source:
       type: git
-      url: https://github.com/mmakaay/esphome-xiaomi_bslamp2
+      url: https://github.com/ihrapsa/esphome-xiaomi_bslamp2
       ref: dev
     refresh: 60s
 
